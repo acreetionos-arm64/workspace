@@ -1,0 +1,30 @@
+[submodule "documentation"]
+	path = documentation
+	url = https://github.com/acreetionos-arm64/documentation.git
+[submodule "iso-builder"]
+	path = iso-builder
+	url = https://github.com/acreetionos-arm64/iso-builder.git
+[submodule "custom-packages"]
+	path = custom-packages
+	url = https://github.com/acreetionos-arm64/custom-packages.git
+[submodule "arm64-toolchain"]
+	path = arm64-toolchain
+	url = https://github.com/acreetionos-arm64/arm64-toolchain.git
+[submodule "hardware-support"]
+	path = hardware-support
+	url = https://github.com/acreetionos-arm64/hardware-support.git
+[submodule "boot-systems"]
+	path = boot-systems
+	url = https://github.com/acreetionos-arm64/boot-systems.git
+[submodule "package-builder"]
+	path = package-builder
+	url = https://github.com/acreetionos-arm64/package-builder.git
+[submodule "testing-infrastructure"]
+	path = testing-infrastructure
+	url = https://github.com/acreetionos-arm64/testing-infrastructure.git
+[submodule "upstream-sync"]
+	path = upstream-sync
+	url = https://github.com/acreetionos-arm64/upstream-sync.git
+[submodule "releases"]
+	path = releases
+	url = https://github.com/acreetionos-arm64/releases.git
