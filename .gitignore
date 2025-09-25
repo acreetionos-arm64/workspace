@@ -1,0 +1,68 @@
+# AcreetionOS ARM64 Workspace - Git Ignore
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build Artifacts (workspace level)
+*.iso
+*.img
+work/
+out/
+build/
+dist/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Archive Files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.7z
+
+# Package Files
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.deb
+*.rpm
+
+# Git LFS Tracking (defined in .gitattributes)
+# Large binary files should be tracked by Git LFS
+
+# Local Configuration
+local.conf
+*.local
+.env
+.env.local
+
+# Documentation Build Artifacts
+_build/
+.jekyll-cache/
+.sass-cache/
+
+# Python Cache (for build scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Submodule Working Directories
+# (Submodules themselves are tracked, but not their working changes)
