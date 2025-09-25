@@ -1,0 +1,193 @@
+# CLAUDE.md - {REPOSITORY_NAME} AI Development Context
+
+This file provides AI development context and guidance for working with the {REPOSITORY_NAME} submodule of the AcreetionOS ARM64 workspace.
+
+## Repository Context
+
+**Domain**: {REPOSITORY_DOMAIN}
+**Primary Technologies**: {PRIMARY_TECHNOLOGIES}
+**Development Focus**: {DEVELOPMENT_FOCUS}
+
+### Repository Purpose
+{DETAILED_PURPOSE_EXPLANATION}
+
+### Scope and Boundaries
+{SCOPE_AND_BOUNDARIES}
+
+## Development Patterns
+
+### Code Organization
+{CODE_ORGANIZATION_PATTERNS}
+
+### File Structure Conventions
+{FILE_STRUCTURE_CONVENTIONS}
+
+### Naming Conventions
+{NAMING_CONVENTIONS}
+
+### Common Workflows
+{COMMON_WORKFLOW_PATTERNS}
+
+## Key Technologies
+
+### Primary Languages
+{PRIMARY_LANGUAGES_AND_USAGE}
+
+### Frameworks and Tools
+{FRAMEWORKS_AND_TOOLS}
+
+### Build Systems
+{BUILD_SYSTEM_DETAILS}
+
+### Configuration Management
+{CONFIG_MANAGEMENT_APPROACH}
+
+## Integration Points
+
+### Submodule Dependencies
+{SUBMODULE_INTEGRATION_DETAILS}
+
+### Data Flow
+{DATA_FLOW_PATTERNS}
+
+### API Interfaces
+{API_INTERFACE_PATTERNS}
+
+### Cross-Repository Communication
+{CROSS_REPO_COMMUNICATION}
+
+## Testing Strategy
+
+### Testing Philosophy
+{TESTING_PHILOSOPHY}
+
+### Test Types and Coverage
+{TEST_TYPES_AND_COVERAGE}
+
+### Automation Approaches
+{TEST_AUTOMATION_DETAILS}
+
+### Validation Criteria
+{VALIDATION_CRITERIA}
+
+## Build and Deployment
+
+### Build Process
+{BUILD_PROCESS_DETAILS}
+
+### Compilation Requirements
+{COMPILATION_REQUIREMENTS}
+
+### Deployment Considerations
+{DEPLOYMENT_CONSIDERATIONS}
+
+### ARM64-Specific Concerns
+{ARM64_SPECIFIC_CONCERNS}
+
+## Quality Standards
+
+### Code Review Criteria
+{CODE_REVIEW_CRITERIA}
+
+### Documentation Requirements
+{DOCUMENTATION_REQUIREMENTS}
+
+### Performance Standards
+{PERFORMANCE_STANDARDS}
+
+### Security Considerations
+{SECURITY_CONSIDERATIONS}
+
+## Troubleshooting
+
+### Common Development Issues
+{COMMON_DEV_ISSUES}
+
+### Debug Procedures
+{DEBUG_PROCEDURES}
+
+### Performance Analysis
+{PERFORMANCE_ANALYSIS}
+
+### Error Handling Patterns
+{ERROR_HANDLING_PATTERNS}
+
+## Milestone Alignment
+
+### Current Milestone Objectives
+{CURRENT_MILESTONE_OBJECTIVES}
+
+### Repository-Specific Goals
+{REPOSITORY_SPECIFIC_GOALS}
+
+### Success Criteria
+{SUCCESS_CRITERIA}
+
+### Dependencies on Other Submodules
+{MILESTONE_DEPENDENCIES}
+
+## Reference Materials
+
+### Upstream Documentation
+{UPSTREAM_DOCUMENTATION_LINKS}
+
+### Technical Specifications
+{TECHNICAL_SPEC_REFERENCES}
+
+### Best Practices
+{BEST_PRACTICES_REFERENCES}
+
+### Learning Resources
+{LEARNING_RESOURCES}
+
+## Development Environment
+
+### Required Tools
+{REQUIRED_TOOLS_LIST}
+
+### Configuration Files
+{CONFIGURATION_FILES}
+
+### Environment Variables
+{ENVIRONMENT_VARIABLES}
+
+### IDE/Editor Setup
+{IDE_EDITOR_SETUP}
+
+## AI Assistance Guidelines
+
+### Preferred Code Patterns
+{PREFERRED_CODE_PATTERNS}
+
+### Architecture Principles
+{ARCHITECTURE_PRINCIPLES}
+
+### Documentation Style
+{DOCUMENTATION_STYLE_PREFERENCES}
+
+### Review Focus Areas
+{REVIEW_FOCUS_AREAS}
+
+## Project Context
+
+This repository operates within the AcreetionOS ARM64 multi-repository workspace:
+
+- **Main Workspace**: [acreetionos-arm64/workspace](https://github.com/acreetionos-arm64/workspace)
+- **Architecture**: Distributed development across 10 specialized repositories
+- **Coordination**: Git submodules with independent development lifecycles
+- **Timeline**: Sustainable side project, 18-36 month development cycle
+
+## Upstream Relationships
+
+### AcreetionOS Integration
+{ACREETIONOS_INTEGRATION_DETAILS}
+
+### GitLab CE Coordination
+{GITLAB_CE_COORDINATION}
+
+### Community Contribution
+{COMMUNITY_CONTRIBUTION_APPROACH}
+
+---
+
+*This AI context file is maintained to provide effective development assistance specific to the {REPOSITORY_NAME} domain within the AcreetionOS ARM64 project.*

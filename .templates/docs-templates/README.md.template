@@ -1,0 +1,127 @@
+# {REPOSITORY_NAME}
+
+> {REPOSITORY_TAGLINE}
+
+## Repository Purpose
+
+{REPOSITORY_DESCRIPTION}
+
+This repository is part of the AcreetionOS ARM64 multi-repository workspace, providing {SPECIFIC_FUNCTIONALITY} for the overall ARM64 port project.
+
+## Architecture Context
+
+{REPOSITORY_NAME} integrates with the AcreetionOS ARM64 workspace as follows:
+
+- **Primary Role**: {PRIMARY_ROLE}
+- **Dependencies**: {DEPENDENCY_LIST}
+- **Integration Points**: {INTEGRATION_POINTS}
+- **Upstream Coordination**: {UPSTREAM_RELATIONSHIP}
+
+### Related Repositories
+{RELATED_REPOSITORIES_LIST}
+
+## Development Status
+
+**Current Milestone**: {CURRENT_MILESTONE}
+**Completion Status**: {COMPLETION_STATUS}
+
+### Milestone Progress
+{MILESTONE_PROGRESS_DETAILS}
+
+## Quick Start Guide
+
+### Prerequisites
+{PREREQUISITES_LIST}
+
+### Setup Instructions
+```bash
+{SETUP_COMMANDS}
+```
+
+### Basic Usage
+{BASIC_USAGE_EXAMPLES}
+
+## Directory Structure
+
+```
+{REPOSITORY_NAME}/
+├── {DIRECTORY_STRUCTURE}
+└── {MORE_STRUCTURE}
+```
+
+### Key Files and Directories
+{KEY_FILES_DESCRIPTIONS}
+
+## Development Workflow
+
+### Making Changes
+{DEVELOPMENT_WORKFLOW_STEPS}
+
+### Testing Changes
+{TESTING_INSTRUCTIONS}
+
+### Contributing
+{CONTRIBUTION_GUIDELINES}
+
+## Dependencies
+
+### System Requirements
+{SYSTEM_REQUIREMENTS}
+
+### External Dependencies
+{EXTERNAL_DEPENDENCIES}
+
+### Submodule Dependencies
+{SUBMODULE_DEPENDENCIES}
+
+## Testing Instructions
+
+### Unit Testing
+{UNIT_TESTING_APPROACH}
+
+### Integration Testing
+{INTEGRATION_TESTING_APPROACH}
+
+### Validation
+{VALIDATION_PROCEDURES}
+
+## Build/Deployment
+
+{BUILD_DEPLOYMENT_INSTRUCTIONS}
+
+## Upstream Coordination
+
+### GitLab CE Mirroring
+{GITLAB_MIRRORING_STATUS}
+
+### Upstream Relationships
+{UPSTREAM_PROJECT_RELATIONSHIPS}
+
+### Contribution Upstream
+{UPSTREAM_CONTRIBUTION_PROCESS}
+
+## Troubleshooting
+
+### Common Issues
+{COMMON_ISSUES_AND_SOLUTIONS}
+
+### Debug Information
+{DEBUG_PROCEDURES}
+
+### Getting Help
+{SUPPORT_CHANNELS}
+
+## Project Context
+
+- **AcreetionOS ARM64 Workspace**: [Main Repository](https://github.com/acreetionos-arm64/workspace)
+- **Project Documentation**: [Documentation Repository]({DOCS_REPO_LINK})
+- **Issue Tracking**: [GitHub Issues]({ISSUES_LINK})
+- **Development Coordination**: See [CLAUDE.md](./CLAUDE.md) for AI development context
+
+## License
+
+{LICENSE_INFORMATION}
+
+---
+
+*This repository is part of the AcreetionOS ARM64 port project - a sustainable side project focused on learning Linux distribution development while creating a functional ARM64 port of AcreetionOS.*
