@@ -1,0 +1,142 @@
+# Pull Request - {REPOSITORY_NAME}
+
+## Change Summary
+
+<!-- Provide a clear, concise summary of the changes in this PR -->
+
+**Change Type:** [Bug Fix / Feature / Enhancement / Refactoring / Documentation / Infrastructure]
+**Repository Impact:** <!-- Describe how this affects the {REPOSITORY_NAME} submodule -->
+
+## Description
+
+<!-- Detailed description of the changes made -->
+
+### What Changed
+<!-- List the specific changes made -->
+
+### Why This Change
+<!-- Explain the motivation for this change -->
+
+## Cross-Repository Dependencies
+
+<!-- How does this change affect other submodules in the workspace? -->
+
+- [ ] **No cross-repository impact** - Changes are isolated to {REPOSITORY_NAME}
+- [ ] **Requires updates in other submodules** - List affected repositories below
+- [ ] **Affects build system integration** - Describe integration changes
+- [ ] **Changes API/interface contracts** - Document interface changes
+
+### Affected Repositories
+<!-- List other submodules that need updates or are affected -->
+
+## ARM64 Compatibility
+
+<!-- Verification of ARM64 support and compatibility -->
+
+- [ ] **ARM64 compatibility verified** - Changes work correctly on ARM64
+- [ ] **Cross-compilation tested** - Build process works with ARM64 toolchain
+- [ ] **Hardware testing completed** - Tested on actual ARM64 hardware (if applicable)
+- [ ] **Emulation testing completed** - Tested in QEMU ARM64 environment
+
+### ARM64-Specific Considerations
+<!-- Document any ARM64-specific aspects of this change -->
+
+## Testing Performed
+
+### {REPOSITORY_SPECIFIC_TESTING}
+<!-- Repository-specific testing section -->
+
+- [ ] **Unit tests pass** - All existing and new unit tests pass
+- [ ] **Integration tests pass** - Integration with other components verified
+- [ ] **Manual testing completed** - Manual verification procedures followed
+
+### Testing Details
+<!-- Provide details about testing performed -->
+
+**Test Environment:**
+<!-- Describe the testing environment used -->
+
+**Test Results:**
+<!-- Summarize test results -->
+
+## Milestone Progress
+
+**Related Milestone:** [Milestone 0 / Milestone 1 / Milestone 2 / Milestone 3 / Milestone 4]
+**Milestone Objective:** <!-- How does this advance milestone objectives -->
+
+### Progress Impact
+<!-- Describe how this change impacts milestone completion -->
+
+- [ ] **Advances milestone objectives** - Moves milestone work forward
+- [ ] **Completes milestone requirement** - Fulfills specific milestone requirement
+- [ ] **Unblocks dependent work** - Enables other milestone work to proceed
+
+## Upstream Considerations
+
+### AcreetionOS Compatibility
+- [ ] **Maintains upstream compatibility** - No breaking changes to AcreetionOS integration
+- [ ] **Follows upstream patterns** - Consistent with AcreetionOS development practices
+- [ ] **Documentation updated** - Upstream-relevant changes documented
+
+### GitLab CE Integration
+<!-- Impact on GitLab CE mirroring and upstream coordination -->
+
+- [ ] **No GitLab CE impact** - Changes don't affect upstream coordination
+- [ ] **Requires GitLab CE updates** - Describe needed coordination
+- [ ] **Affects upstream sync** - Document synchronization requirements
+
+## Documentation Updates
+
+<!-- Required documentation changes -->
+
+- [ ] **Code comments updated** - Inline documentation reflects changes
+- [ ] **README.md updated** - Repository README reflects changes (if applicable)
+- [ ] **CLAUDE.md updated** - AI context updated for significant changes
+- [ ] **API documentation updated** - Interface changes documented
+
+### Documentation Changes
+<!-- List specific documentation updates made -->
+
+## Review Requirements
+
+### Technical Review Focus
+<!-- Areas that need special attention during review -->
+
+### {REPOSITORY_DOMAIN_REVIEW}
+<!-- Domain-specific review requirements -->
+
+- [ ] **Code quality standards met** - Follows repository coding standards
+- [ ] **Security review completed** - Security implications considered
+- [ ] **Performance impact assessed** - Performance implications evaluated
+
+## Quality Assurance
+
+- [ ] **No merge conflicts** - PR is up to date with target branch
+- [ ] **CI/CD checks pass** - All automated checks pass
+- [ ] **Code review completed** - Required reviews obtained
+- [ ] **Testing requirements met** - All testing requirements fulfilled
+
+## Related Issues
+
+<!-- Link related issues using keywords like "Closes #123", "Fixes #456", "Relates to #789" -->
+
+## Additional Notes
+
+<!-- Any additional context, concerns, or information for reviewers -->
+
+---
+
+**Reviewers:** Please verify:
+1. Changes align with repository purpose and patterns
+2. ARM64 compatibility is maintained/improved
+3. Cross-repository dependencies are properly managed
+4. Documentation is complete and accurate
+5. Testing coverage is adequate for the changes made
+
+<!--
+{REPOSITORY_SPECIFIC_INSTRUCTIONS}
+-->
+
+---
+
+*This PR is part of the AcreetionOS ARM64 project - a multi-repository workspace focused on creating a sustainable ARM64 port of AcreetionOS.*

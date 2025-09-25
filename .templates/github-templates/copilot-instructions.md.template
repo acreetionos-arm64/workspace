@@ -1,0 +1,181 @@
+# GitHub Copilot Instructions - {REPOSITORY_NAME}
+
+This file provides GitHub Copilot with domain-specific context for the {REPOSITORY_NAME} submodule of the AcreetionOS ARM64 project.
+
+## Repository Domain
+
+**Specialization**: {REPOSITORY_SPECIALIZATION}
+**Primary Function**: {PRIMARY_FUNCTION}
+**Technical Domain**: {TECHNICAL_DOMAIN}
+
+## Code Style and Conventions
+
+### Language-Specific Guidelines
+{LANGUAGE_SPECIFIC_GUIDELINES}
+
+### Coding Standards
+{CODING_STANDARDS}
+
+### File Organization
+{FILE_ORGANIZATION_PATTERNS}
+
+### Naming Conventions
+{NAMING_CONVENTIONS_DETAILS}
+
+## Framework Preferences
+
+### Preferred Approaches
+{PREFERRED_APPROACHES}
+
+### Architecture Patterns
+{ARCHITECTURE_PATTERNS}
+
+### Design Principles
+{DESIGN_PRINCIPLES}
+
+### Technology Stack
+{TECHNOLOGY_STACK_PREFERENCES}
+
+## Testing Approaches
+
+### Unit Testing Strategy
+{UNIT_TESTING_STRATEGY}
+
+### Integration Testing
+{INTEGRATION_TESTING_APPROACH}
+
+### Test Structure
+{TEST_STRUCTURE_PATTERNS}
+
+### Mocking and Fixtures
+{MOCKING_AND_FIXTURES}
+
+## Documentation Style
+
+### Code Comments
+{CODE_COMMENT_STYLE}
+
+### Documentation Patterns
+{DOCUMENTATION_PATTERNS}
+
+### README Conventions
+{README_CONVENTIONS}
+
+### API Documentation
+{API_DOCUMENTATION_STYLE}
+
+## Security Considerations
+
+### Security Best Practices
+{SECURITY_BEST_PRACTICES}
+
+### Vulnerability Prevention
+{VULNERABILITY_PREVENTION}
+
+### Secure Coding Patterns
+{SECURE_CODING_PATTERNS}
+
+### Secrets Management
+{SECRETS_MANAGEMENT}
+
+## Performance Guidelines
+
+### Optimization Priorities
+{OPTIMIZATION_PRIORITIES}
+
+### Performance Patterns
+{PERFORMANCE_PATTERNS}
+
+### Resource Management
+{RESOURCE_MANAGEMENT}
+
+### Profiling Approaches
+{PROFILING_APPROACHES}
+
+## ARM64-Specific Considerations
+
+### ARM64 Compatibility
+{ARM64_COMPATIBILITY_REQUIREMENTS}
+
+### Cross-Platform Concerns
+{CROSS_PLATFORM_CONCERNS}
+
+### Architecture-Specific Optimizations
+{ARCH_SPECIFIC_OPTIMIZATIONS}
+
+### Hardware Considerations
+{HARDWARE_CONSIDERATIONS}
+
+## Upstream Compatibility
+
+### Compatibility Requirements
+{UPSTREAM_COMPATIBILITY}
+
+### Integration Standards
+{INTEGRATION_STANDARDS}
+
+### Contribution Guidelines
+{CONTRIBUTION_GUIDELINES}
+
+### Version Management
+{VERSION_MANAGEMENT}
+
+## Project-Specific Context
+
+### AcreetionOS Integration
+{ACREETIONOS_INTEGRATION}
+
+### Multi-Repository Coordination
+{MULTI_REPO_COORDINATION}
+
+### Submodule Dependencies
+{SUBMODULE_DEPENDENCIES}
+
+### Build System Integration
+{BUILD_SYSTEM_INTEGRATION}
+
+## Common Patterns and Anti-Patterns
+
+### Recommended Patterns
+{RECOMMENDED_PATTERNS}
+
+### Anti-Patterns to Avoid
+{ANTI_PATTERNS_TO_AVOID}
+
+### Best Practices
+{BEST_PRACTICES}
+
+### Code Review Focus
+{CODE_REVIEW_FOCUS}
+
+## Error Handling and Logging
+
+### Error Handling Strategy
+{ERROR_HANDLING_STRATEGY}
+
+### Logging Conventions
+{LOGGING_CONVENTIONS}
+
+### Debug Information
+{DEBUG_INFORMATION}
+
+### Monitoring Approaches
+{MONITORING_APPROACHES}
+
+## Development Workflow
+
+### Branch Management
+{BRANCH_MANAGEMENT}
+
+### Commit Conventions
+{COMMIT_CONVENTIONS}
+
+### PR Guidelines
+{PR_GUIDELINES}
+
+### Review Process
+{REVIEW_PROCESS}
+
+---
+
+*These instructions help GitHub Copilot provide contextually appropriate suggestions for {REPOSITORY_NAME} development within the AcreetionOS ARM64 project ecosystem.*
