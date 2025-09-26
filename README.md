@@ -2,12 +2,13 @@
 
 **Organization**: [`acreetionos-arm64`](https://github.com/acreetionos-arm64)
 **Project Lead**: John Junkins ([@macjunkins](https://github.com/macjunkins))
-**Status**: Milestone 0 - Infrastructure Setup
+**Development Status**: Ready for M1 execution
 **Architecture Target**: ARM64/aarch64
+**Methodology**: Structured Waterfall with WBS tracking
 
 ## Overview
 
-This is the main coordination workspace for the AcreetionOS ARM64 port project. This repository coordinates development across 10+ focused submodules, each handling specific aspects of the ARM64 port.
+This is the main coordination workspace for the AcreetionOS ARM64 port project. This repository coordinates development across 10 focused submodules using structured Work Breakdown Structure (WBS) methodology with 29 systematically numbered issues.
 
 ## Multi-Repository Architecture
 
@@ -40,47 +41,22 @@ git submodule update --init --recursive
 git submodule update --remote
 ```
 
-## Current Status
+## Current Status & Next Steps
 
-**🎉 Milestone 0 Complete** - Professional multi-repository infrastructure established with complete content migration and git history preservation. Ready for ARM64 development work.
+**✅ Infrastructure Complete**: GitHub organization, WBS system, 29 issues created and organized
+**📍 Ready for Development**: M1.1.1 (Validate x86_64 build baseline) ready to execute
+**📊 Project Organization**: [View Project Board](https://github.com/orgs/acreetionos-arm64/projects/2)
 
-**📊 Infrastructure Achievements:**
-- **11 repositories**: 50-100GB Git LFS capacity
-- **Complete migration**: x86_64 build system + custom packages + documentation
-- **Professional structure**: Ready for community contributions
-- **Sustainable foundation**: Supporting 18-36 month development timeline
+### Immediate Next Steps
+1. **M1.1.1**: Validate x86_64 build baseline (0 dependencies, ready to start)
+2. **M1.2.1**: Setup ARM64 cross-compilation toolchain (parallel development)
+3. **M1.3.x**: Begin ARM64 research tasks (parallel with baseline validation)
 
-## Development Milestones
-
-### ✅ Milestone 0: Infrastructure Setup (COMPLETE)
-- [x] GitHub Organization `acreetionos-arm64` created
-- [x] Main workspace repository established
-- [x] 10 focused submodule repositories created
-- [x] Multi-repository submodule integration configured
-- [x] Content migration with git history preservation
-- [x] Professional documentation and coordination structure
-- [x] GitLab CE upstream coordination setup (deferred - connectivity issues)
-
-### 🔄 Milestone 1: Foundation (~40-60 hours) - Next Phase
-- [ ] ARM64 cross-compilation environment setup
-- [ ] Convert profiledef.sh and packages.x86_64 → packages.aarch64
-- [ ] First ARM64 ISO build attempt
-- [ ] QEMU ARM64 emulation testing environment
-
-### 📋 Milestone 2: Bootable System (~60-80 hours)
-- [ ] ARM64 bootloader implementation (U-Boot/UEFI)
-- [ ] Hardware support (Raspberry Pi 4/5, Pine64)
-- [ ] Desktop environment functional on ARM64
-
-### 📋 Milestone 3: AcreetionOS Identity (~50-70 hours)
-- [ ] Custom branding and themes for ARM64
-- [ ] Calamares installer port
-- [ ] Default applications and configurations
-
-### 📋 Milestone 4: Production Ready (~30-40 hours)
-- [ ] Package repository and signing
-- [ ] Documentation and user guides
-- [ ] Community testing and v1.0.0 release
+### Development Approach
+- **WBS Methodology**: All work tracked through numbered issues (M[milestone].[repository].[task])
+- **29 Total Issues**: 16 in M1 (Foundation), 13 in M2 (Core Implementation)
+- **Sequential Dependencies**: Strict Waterfall approach, no parallel work on dependent tasks
+- **Complete Roadmap**: See [`documentation/ROADMAP.md`](documentation/ROADMAP.md) for full details
 
 ## Project Philosophy
 
@@ -112,12 +88,14 @@ This project welcomes contributions in:
 - Multi-platform testing and validation
 - Documentation and user experience
 
-## Links
+## Key Resources
 
-- **Technical Architecture**: [`acreetionos-arm64/documentation`](https://github.com/acreetionos-arm64/documentation) ✅
-- **Build System**: [`acreetionos-arm64/iso-builder`](https://github.com/acreetionos-arm64/iso-builder) ✅
-- **Custom Packages**: [`acreetionos-arm64/custom-packages`](https://github.com/acreetionos-arm64/custom-packages) ✅
-- **AcreetionOS Upstream**: [gitlab.acreetionos.org](https://gitlab.acreetionos.org)
+- **📋 Development Roadmap**: [`documentation/ROADMAP.md`](documentation/ROADMAP.md) - Complete WBS development plan
+- **🎯 Project Board**: [GitHub Projects](https://github.com/orgs/acreetionos-arm64/projects/2) - Issue tracking and progress
+- **🔧 Build System**: [`acreetionos-arm64/iso-builder`](https://github.com/acreetionos-arm64/iso-builder) - Main archiso ARM64 conversion
+- **📦 Custom Packages**: [`acreetionos-arm64/custom-packages`](https://github.com/acreetionos-arm64/custom-packages) - AcreetionOS-specific components
+- **🧰 Toolchain**: [`acreetionos-arm64/arm64-toolchain`](https://github.com/acreetionos-arm64/arm64-toolchain) - Cross-compilation environment
+- **📚 Documentation**: [`acreetionos-arm64/documentation`](https://github.com/acreetionos-arm64/documentation) - Technical architecture and guides
 
 ---
 
