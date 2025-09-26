@@ -49,15 +49,22 @@ git commit -m "Update iso-builder to latest ARM64 work"
 git push
 ```
 
-### Milestone-Based Development
-Currently in **Milestone 0**: Infrastructure Setup
+### Work Breakdown Structure (WBS) & Waterfall Development
+**Development Methodology**: Structured Waterfall approach with systematic WBS numbering
 
-**Focus Areas by Milestone**:
-- **M0**: Repository setup, content migration, toolchain preparation
-- **M1**: ARM64 conversion, first ISO build attempts
-- **M2**: Bootable system, hardware support
-- **M3**: AcreetionOS identity, branding, installer
-- **M4**: Production release preparation
+**Current Active Milestones**:
+- **M1: Foundation & Infrastructure** (80-100 hours) - Due: Dec 31, 2025
+- **M2: Core ARM64 Implementation** (120-160 hours) - Due: Mar 31, 2026
+
+**WBS Numbering System**: `M[milestone].[repository].[task]`
+- **Repository Numbers**: 1=iso-builder, 2=arm64-toolchain, 3=documentation, 4=custom-packages, 5=testing-infrastructure, 6=boot-systems, 7=hardware-support
+- **Examples**: M1.1.1, M1.2.3, M2.6.1
+
+**Issue Management Rules**:
+- **Internal Development**: MUST follow WBS numbering system
+- **Community Issues**: Will be triaged and either integrated into WBS or handled separately
+- **Dependencies**: Strict adherence to documented issue dependencies
+- **No Agile**: Sequential milestone completion, no sprint methodology
 
 ### Dual Remote Strategy
 - **Primary Development**: GitHub Organization `acreetionos-arm64`
@@ -66,21 +73,55 @@ Currently in **Milestone 0**: Infrastructure Setup
 
 ## Current Development Status
 
-### Completed (Milestone 0)
+### Completed (Infrastructure Setup)
 - ✅ GitHub Organization `acreetionos-arm64` established
 - ✅ Main workspace repository created with coordination structure
-- ✅ Project planning and architecture documentation complete
+- ✅ **M1 & M2 Milestones**: 29 issues created with WBS numbering (M1: 16 issues, M2: 13 issues)
+- ✅ **Project Board**: All issues organized in unified tracking system
+- ✅ **WBS System**: Structured numbering implemented across all development work
 
-### In Progress
-- 🔄 Creating 10 focused submodule repositories
-- 🔄 Content migration from current scattered directory structure
-- 🔄 Git history preservation during migration
+### Current Milestone: M1 - Foundation & Infrastructure
+**Ready to Begin**: M1.1.1 - Validate x86_64 build baseline (critical path starter)
+**Parallel Research**: M1.3.x documentation tasks can run concurrently
 
-### Next Actions
-1. Create all 10 submodule repositories under `acreetionos-arm64` organization
-2. Migrate content from `acreetionOS_Arm_Project/` with git history preservation
-3. Configure GitLab CE Group for upstream coordination
-4. Set up ARM64 development environment in `arm64-toolchain/`
+### Next Critical Path Actions
+1. **M1.1.1**: Validate x86_64 build baseline (0 dependencies)
+2. **M1.2.1**: Setup ARM64 cross-compilation toolchain (foundation for all builds)
+3. **M1.3.1-3**: ARM64 architecture, package ecosystem, and hardware research
+4. **M1.1.2**: Analyze archiso build system internals (depends on M1.1.1)
+
+## Issue Management & WBS Guidelines
+
+### Creating New Issues
+**Internal Development Issues**: MUST follow WBS format
+```
+Title: M[milestone].[repository].[task] - [Description]
+Examples:
+- M1.1.1 - Validate x86_64 build baseline
+- M2.6.2 - Implement U-Boot configuration for target platforms
+```
+
+### Repository Number Reference
+```
+1 = iso-builder          (Main archiso build system)
+2 = arm64-toolchain      (Cross-compilation environment)
+3 = documentation        (Technical architecture, guides)
+4 = custom-packages      (AcreetionOS-specific components)
+5 = testing-infrastructure (CI/CD, validation)
+6 = boot-systems         (U-Boot, UEFI bootloaders)
+7 = hardware-support     (Device trees, firmware)
+```
+
+### Issue Labels Required
+- **Repository**: `iso-builder`, `arm64-toolchain`, etc.
+- **Priority**: `priority:critical`, `priority:important`
+- **Complexity**: `complexity:low`, `complexity:medium`, `complexity:high`
+- **Type**: `enhancement`, `bug`, `documentation`
+
+### Community Issue Triage
+- External issues lacking WBS numbering will be triaged
+- May be integrated into existing WBS or handled as separate community requests
+- Maintain clear separation between structured development and community contributions
 
 ## Repository-Specific Guidance
 
