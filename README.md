@@ -96,6 +96,7 @@ This project welcomes contributions in:
 - **📦 Custom Packages**: [`acreetionos-arm64/custom-packages`](https://github.com/acreetionos-arm64/custom-packages) - AcreetionOS-specific components
 - **🧰 Toolchain**: [`acreetionos-arm64/arm64-toolchain`](https://github.com/acreetionos-arm64/arm64-toolchain) - Cross-compilation environment
 - **📚 Documentation**: [`acreetionos-arm64/documentation`](https://github.com/acreetionos-arm64/documentation) - Technical architecture and guides
+- **🤖 AI Assistants**: [`CLAUDE.md`](CLAUDE.md) and [`JUNIE.md`](JUNIE.md) - Custom instruction sets for Claude CLI and JetBrains AI (Junie)
 
 ---
 
