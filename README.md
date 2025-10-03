@@ -8,12 +8,13 @@
 
 ## Overview
 
-This is the main coordination workspace for the AcreetionOS ARM64 port project. This repository coordinates development across 10 focused submodules using structured Work Breakdown Structure (WBS) methodology with 29 systematically numbered issues.
+This is the main coordination workspace for the AcreetionOS ARM64 port project. This repository coordinates development across 11 focused submodules using structured Work Breakdown Structure (WBS) methodology with 29 systematically numbered issues.
 
 ## Multi-Repository Architecture
 
 ```
 acreetionos-arm64/workspace              # ← This repository (coordination)
+├── .github/                             # Git submodule - Org profile & community health
 ├── iso-builder/                         # Git submodule - Main archiso build system
 ├── custom-packages/                     # Git submodule - AcreetionOS components
 ├── arm64-toolchain/                     # Git submodule - Cross-compilation tools

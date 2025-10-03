@@ -26,6 +26,9 @@ This file provides guidance to Claude Code when working with the AcreetionOS ARM
 - **`documentation/`** - Technical architecture, guides, proposals
 - **`releases/`** - ISO artifacts, release management, distribution
 
+### Organization & Community
+- **`.github/`** - GitHub organization profile, community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md, issue/PR templates)
+
 ## Development Workflow
 
 ### Working with Submodules
@@ -139,6 +142,12 @@ Examples:
 - Technical architecture documents
 - Developer guides and contribution workflows
 - Upstream coordination proposals and communication
+
+### When Working on Organization Profile (`.github/`)
+- Organization README.md displayed at https://github.com/acreetionos-arm64
+- Org-wide community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md, SUPPORT.md)
+- Default issue and pull request templates for all repositories
+- These files serve as defaults for any repository without its own version
 
 ## Project Philosophy
 

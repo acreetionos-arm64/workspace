@@ -28,3 +28,6 @@
 [submodule "releases"]
 	path = releases
 	url = https://github.com/acreetionos-arm64/releases.git
+[submodule ".github"]
+	path = .github
+	url = git@github.com:acreetionos-arm64/.github.git
